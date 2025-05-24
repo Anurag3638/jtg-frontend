@@ -1,21 +1,21 @@
 // Sample data for demonstration
 const homeKitchenData = [
-    { img: 'assets/pizza1.png', title: 'Home made pizza', price: '₹190', badge: '50%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza2.jpg', title: 'Home made pizza', price: '₹123', badge: '30%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza3.jpg', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza4.jpg', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza5.jpg', title: 'Home made pizza', price: '₹19', badge: '50%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza6.jpg', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza7.jpg', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza8.jpg', title: 'Home made pizza', price: '₹190', badge: '50%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza9.jpg', title: 'Home made pizza', price: '₹19', badge: '50%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza10.jpg', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza11.jpg', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
-    { img: 'assets/pizza12.jpg', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza2.png', title: 'Home made pizza', price: '₹190', badge: '50%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/slice.png', title: 'Home made pizza', price: '₹123', badge: '30%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/cut.png', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza3.png', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza1.png', title: 'Home made pizza', price: '₹19', badge: '50%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza4.png', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza5.png', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza6.png', title: 'Home made pizza', price: '₹190', badge: '50%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza2.png', title: 'Home made pizza', price: '₹19', badge: '50%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/slice.png', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/cut.png', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza3.png', title: 'Home made pizza', price: '₹190', badge: '', rating: '4.7', time: '50-70 min' },
 ];
 
 const popularItemsData = [
-    { img: 'assets/pizza1.png', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
+    { img: 'assets/pizza2.png', title: 'Home made pizza', price: '₹190', badge: '20%', rating: '4.7', time: '50-70 min' },
     { img: 'assets/tandoori.jpg', title: 'Tandoori Chicken', price: '₹184', badge: '50%', rating: '4.2', time: '18-23 min' },
     { img: 'assets/chilli-chicken.jpg', title: 'Chilli Chicken', price: '₹116', badge: '50%', rating: '4.1', time: '34-42 min' },
 ];
