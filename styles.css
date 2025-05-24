@@ -141,6 +141,7 @@ nav a:hover {
 }
 
 .food-card {
+    width: 277px;
     position: relative;
     background: #fff;
     border-radius: var(--radius);

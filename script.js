@@ -27,7 +27,7 @@ homeKitchenData.forEach(item => {
     card.className = 'food-card';
     card.innerHTML = `
         <div class="food-card-content">
-            <img src="${popularItemsData[0].img}" alt="${item.title}">
+            <img src="${item.img}" alt="${item.title}">
             ${item.badge ? `<span class="food-card-badge">${item.badge}</span>` : ''}
             <div style="padding: 10px;">
                 <div class="food-card-title">${item.title}</div>
