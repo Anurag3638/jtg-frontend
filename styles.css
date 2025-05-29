@@ -33,6 +33,11 @@ header {
     color: #fff;
     padding: 18px 0;
 }
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+}
 
 .nav-container {
     display: flex;
@@ -605,8 +610,17 @@ body.modal-open {
     min-height: 82.1vh; /* Adjust 120px if your header+footer height differs */
     box-sizing: border-box;
 }
+.positon-absolute{
+    height: 82.1vh;
+    position: absolute;
+
+}
+
+.widht-100{
+    width: 100%;
+}
 .footer-detail-page{
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;

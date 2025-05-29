@@ -196,3 +196,8 @@ document.querySelector('.search-form').addEventListener('submit', function (e) {
 
 // Initial render (add _originalIndex)
 renderHomeKitchenGrid(foodData.map((item, idx) => ({ ...item, _originalIndex: idx })));
+
+// Hamburger menu toggle for mobile nav
+document.getElementById('navToggle').addEventListener('click', function () {
+    document.getElementById('navLinks').classList.toggle('active');
+});

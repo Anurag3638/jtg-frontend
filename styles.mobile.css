@@ -158,8 +158,9 @@ nav a {
 }
 
 .contact-image img {
-    width: 120px;
-    margin: 0 auto;
+    justify-content: center;
+    width: 220px;
+    height: 180px;
     display: block;
 }
 
@@ -171,6 +172,104 @@ nav a {
 
 .footer-social {
     margin-top: 8px;
+}
+
+/* Hamburger button */
+.nav-toggle {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 5px;
+    margin-left: auto;
+}
+
+.nav-toggle span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #222;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+/* Hide nav links by default on mobile */
+.nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    position: absolute;
+    /* top: 60px;
+    left: 10px;
+    right: 10px; */
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 18px 0;
+}
+
+.nav-links a {
+    padding: 10px 24px;
+    font-size: 1.1rem;
+    color: #222;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.nav-links a:last-child {
+    border-bottom: none;
+}
+
+/* Show nav links when active */
+.nav-links.active {
+    position: static;
+    display: flex;
+}
+
+/* Hide normal nav links and show hamburger on mobile */
+@media (max-width: 700px) {
+    nav {
+        position: relative;
+    }
+    .nav-links {
+        width: 95vw;
+        left: 2.5vw;
+        right: 2.5vw;
+    }
+    .nav-toggle {
+        display: flex;
+    }
+    nav > a, nav > div:not(.nav-links), nav > ul {
+        display: none !important;
+    }
+}
+
+/* Hide hamburger and show normal nav on desktop */
+@media (min-width: 701px) {
+    .nav-toggle {
+        display: none !important;
+    }
+    .nav-links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        gap: 18px;
+        width: auto;
+    }
+    .nav-links a {
+        border-bottom: none;
+        padding: 0;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 400px) {
