@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <!-- ...reuse your header code... -->
+    <header style="height: 80px;">
           <div class="container nav-container">
             <div class="logo">JTGeats</div>
             <nav>
@@ -104,9 +103,13 @@
                 </div>
                 <div class="food-detail-price">${item.price}</div>
                 <p class="food-detail-desc">${item.desc}</p>
-                <button class="request-dish-btn">Order Now</button>
+                <button class="request-dish-btn" id="orderNowBtn">Order Now</button>
             </div>
         `;
+        // Add functionality to Order Now button
+        document.getElementById('orderNowBtn').addEventListener('click', function() {
+            alert('Thank you for your order!\n\nYour order for "' + item.title + '" has been placed.');
+        });
     } else {
         container.innerHTML = `<p>Food item not found.</p>`;
     }
